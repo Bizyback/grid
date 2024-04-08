@@ -10,9 +10,9 @@ A playful way to handle compose gestures with cause and effect
 
 ## 📸 Screenshots
 
-|                            iOS                             |                            android                             | 
-  |:----------------------------------------------------------:|:--------------------------------------------------------------:|
-| <img src="/images/screen/ios.png" hspace="" alt="poems" /> | <img src="/images/screen/android.png" hspace="2" alt="poem" /> | 
+|                             iOS                             |                            android                             | 
+  |:-----------------------------------------------------------:|:--------------------------------------------------------------:|
+| <img src="/images/screen/ios.png" hspace="2" alt="poems" /> | <img src="/images/screen/android.png" hspace="2" alt="poem" /> | 
 
 ## ⚡️ Features
 
