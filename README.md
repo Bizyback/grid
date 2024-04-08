@@ -20,11 +20,12 @@ A playful way to handle compose gestures with cause and effect
 
 |                                                        iOS                                                         |                                      android                                      | 
   |:------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|
-| [<img src="/images/screen/ios.png" width="200" hspace="1" alt="ios grid">](/images/video/ios.mp4 "The Grid (iOS)") | <img src="/images/video/android.mp4" width="200" hspace="1" alt="android grid" /> | 
+| <video src="https://github.com/Bizyback/grid/assets/40160345/c739906d-5bde-4f7f-b259-784883a200ab" width="200" /> | <video src="https://github.com/Bizyback/grid/assets/40160345/764a3cec-9057-470f-a6be-ce97d033ebf1" width="200" /> | 
 
 ## ⚡️ Features
 
 - [X] play with grids
+- [X] tap on grid to change color theme
 
 ## 🤩 Contributions
 
