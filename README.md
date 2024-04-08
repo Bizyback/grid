@@ -10,9 +10,17 @@ A playful way to handle compose gestures with cause and effect
 
 ## 📸 Screenshots
 
+- image
+
 |                                    iOS                                     |                                      android                                       | 
   |:--------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|
-| <img src="/images/screen/ios.png" width="200" hspace="1" alt="ios grid" /> | <img src="/images/screen/android.png" width="200" hspace="1" alt="andoird grid" /> | 
+| <img src="/images/screen/ios.png" width="200" hspace="1" alt="ios grid" /> | <img src="/images/screen/android.png" width="200" hspace="1" alt="android grid" /> | 
+
+- video
+
+|                                    iOS                                    |                                      android                                      | 
+  |:-------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|
+| <img src="/images/video/ios.mp4" width="200" hspace="1" alt="ios grid" /> | <img src="/images/video/android.mp4" width="200" hspace="1" alt="android grid" /> | 
 
 ## ⚡️ Features
 
