@@ -38,8 +38,10 @@ import cafe.adriel.voyager.core.screen.Screen
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import util.Platform
 import util.distance
 import util.getPadding
+import util.platform
 
 /**
  * project : grid
@@ -98,7 +100,6 @@ fun MainScreenContent(toggle: () -> Unit) {
                 }
                 .pointerInput(Unit) {
                     detectDragGestures { change: PointerInputChange, _: Offset ->
-                        println("Dragging -> ${change.position}")
                         update(offset = change.position)
                     }
                 },
@@ -149,8 +150,12 @@ fun MainScreenContent(toggle: () -> Unit) {
 fun getSize(points: Array<Offset?>, offset: Offset?): Dp {
     if (offset == null) return 5.dp
     val (closest, closer, close) = getDistance(points, offset)
+    val size = when(platform){
+        Platform.Android -> 125
+        Platform.iOS -> 150
+    }
     return when {
-        closest < 125 -> 20.dp
+        closest < size -> 20.dp
         closer < 225 -> 10.dp
         close < 275 -> 7.5.dp
         else -> 5.dp
@@ -161,8 +166,12 @@ fun getSize(points: Array<Offset?>, offset: Offset?): Dp {
 fun getColor(points: Array<Offset?>, offset: Offset?): Color {
     if (offset == null) return Color.Gray
     val (closest, closer, close) = getDistance(points, offset)
+    val size = when(platform){
+        Platform.Android -> 125
+        Platform.iOS -> 150
+    }
     return when {
-        closest < 125 -> MaterialTheme.colorScheme.primary
+        closest < size -> MaterialTheme.colorScheme.primary
         closer < 225 -> MaterialTheme.colorScheme.primary.copy(0.5f)
         close < 275 -> MaterialTheme.colorScheme.primary.copy(0.25f)
         else -> MaterialTheme.colorScheme.onBackground.copy(0.5f)

@@ -8,11 +8,24 @@
 
 A playful way to handle compose gestures with cause and effect
 
-## 🤩Contributions
+## 📸 Screenshots
+
+|                            iOS                             |                            android                             | 
+  |:----------------------------------------------------------:|:--------------------------------------------------------------:|
+| <img src="/images/screen/ios.png" hspace="" alt="poems" /> | <img src="/images/screen/android.png" hspace="2" alt="poem" /> | 
+
+## ⚡️ Features
+
+- [X] play with grids
+
+## 🤩 Contributions
+
 Appreciate the project? Here's how you can help:
+
 - 🌟 Star        : Give it a star at the top right. It means a lot!
 - 😎 Contribute  : Found an issue or have a feature idea? Submit a PR.
 - 💬 Feedback    : Have suggestions? Open an issue or start a discussion.
 
 ## 🐝 Made by Bizy-Bees
+
 - [Mambo](https://github.com/MamboBryan)
