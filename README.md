@@ -18,6 +18,8 @@ A playful way to handle compose gestures with cause and effect
 
 - video
 
+<video src="/images/video/ios.mp4" width="200"></video>
+
 |                                     iOS                                     |                                      android                                      | 
   |:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|
 | <video src="/images/video/ios.mp4" width="200" hspace="1" alt="ios grid" /> | <img src="/images/video/android.mp4" width="200" hspace="1" alt="android grid" /> | 
