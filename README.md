@@ -6,7 +6,7 @@
 [![Kotlin](https://img.shields.io/github/languages/top/bizyback/grid.svg?style=for-the-badge&color=007FFF)](https://kotlinlang.org/)
 [![License](https://img.shields.io/github/license/bizyback/grid.svg?style=for-the-badge&color=007FFF)](https://github.com/bizyback/grid/blob/main/LICENSE)
 
-A playful way to handle compose gestures with cause and effect
+A playful way to handle compose gestures with circles and offset
 
 ## 📸 Screenshots
 
